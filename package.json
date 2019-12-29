@@ -1,16 +1,17 @@
 {
-  "name": "cordova-plugin-keychain-touch-id",
+  "name": "cordova-plugin-keychain-touch-id-solid-fork",
   "version": "3.3.0",
   "description": "Scan the fingerprint of your user with the TouchID sensor (iPhone 5S, iPhone 6(S), ..) and control a key in the Keychain",
   "cordova": {
-    "id": "cordova-plugin-keychain-touch-id",
+    "id": "cordova-plugin-keychain-touch-id-solid-fork",
     "platforms": [
-      "ios"
+      "ios",
+	  "android"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sjhoeksma/cordova-plugin-keychain-touch-id.git"
+    "url": "git+https://github.com/solidonline/cordova-plugin-keychain-touch-id.git"
   },
   "keywords": [
     "TouchID",

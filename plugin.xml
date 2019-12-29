@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="cordova-plugin-keychain-touch-id"
+        id="cordova-plugin-keychain-touch-id-solid-fork"
 		version="3.3.0">
     <name>TouchID and Keychain</name>
 	  <author>S.J.Hoeksma</author>
@@ -11,7 +11,7 @@
       <engine name="cordova" version=">=3.0.0"/>
     </engines>
 
-    <repo>https://github.com/sjhoeksma/cordova-plugin-keychain-touch-id.git</repo>
+    <repo>https://github.com/solidonline/cordova-plugin-keychain-touch-id.git</repo>
     <issue>https://github.com/sjhoeksma/cordova-plugin-keychain-touch-id/issues</issue>
 	  <js-module src="www/touchid.js" name="TouchID">
         <clobbers target="window.plugins.touchid" />
